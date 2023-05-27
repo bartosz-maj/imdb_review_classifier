@@ -1,2 +1,2 @@
 # imdb_review_classifier
-Feature extraction of IMDB reviews and a Pytorch binary classifier.
+Feature extraction of IMDB reviews and a Pytorch binary classifier. The feature extraction notebook combines word2vec and tf-idf feature extraction. SVD is applied to the tf-idf sparse matrix to reduce dimensionality. The classifier is a simple network with one hidden layer which consists of 500 nodes. The feature extraction was carried out with limited resources, meaning limiting the data size was a priority. 
